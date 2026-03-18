@@ -1,199 +1,55 @@
 {
-  "restaurants": [
-    {
-      "id": "1",
-      "name": "Spicy Biryani House",
-      "cuisine": ["Indian", "Biryani"],
-      "rating": 4.4,
-      "deliveryTime": "30 mins",
-      "costForTwo": 300,
-      "image": "https://images.unsplash.com/photo-1604908176997-431b3a3c1c09",
-      "menu": [
-        { "id": "m1", "name": "Chicken Biryani", "price": 180 },
-        { "id": "m2", "name": "Mutton Biryani", "price": 250 }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Pizza Paradise",
-      "cuisine": ["Italian"],
-      "rating": 4.6,
-      "deliveryTime": "25 mins",
-      "costForTwo": 400,
-      "image": "https://images.unsplash.com/photo-1594007654729-407eedc4fe0f",
-      "menu": [
-        { "id": "m1", "name": "Margherita Pizza", "price": 199 },
-        { "id": "m2", "name": "Farmhouse Pizza", "price": 299 }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Burger Junction",
-      "cuisine": ["Fast Food"],
-      "rating": 4.2,
-      "deliveryTime": "20 mins",
-      "costForTwo": 250,
-      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
-      "menu": [
-        { "id": "m1", "name": "Veg Burger", "price": 120 },
-        { "id": "m2", "name": "Chicken Burger", "price": 160 }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "South Indian Tiffins",
-      "cuisine": ["South Indian"],
-      "rating": 4.5,
-      "deliveryTime": "15 mins",
-      "costForTwo": 200,
-      "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
-      "menu": [
-        { "id": "m1", "name": "Masala Dosa", "price": 80 },
-        { "id": "m2", "name": "Idli", "price": 50 }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Chinese Wok",
-      "cuisine": ["Chinese"],
-      "rating": 4.3,
-      "deliveryTime": "35 mins",
-      "costForTwo": 350,
-      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b",
-      "menu": [
-        { "id": "m1", "name": "Hakka Noodles", "price": 150 },
-        { "id": "m2", "name": "Fried Rice", "price": 140 }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Healthy Bowl",
-      "cuisine": ["Salads", "Healthy"],
-      "rating": 4.7,
-      "deliveryTime": "20 mins",
-      "costForTwo": 350,
-      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "menu": [
-        { "id": "m1", "name": "Protein Bowl", "price": 220 },
-        { "id": "m2", "name": "Veg Salad", "price": 180 }
-      ]
-    },
-    {
-      "id": "7",
-      "name": "Andhra Spice",
-      "cuisine": ["Andhra"],
-      "rating": 4.5,
-      "deliveryTime": "28 mins",
-      "costForTwo": 320,
-      "image": "https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4",
-      "menu": [
-        { "id": "m1", "name": "Chicken Curry", "price": 200 },
-        { "id": "m2", "name": "Meals", "price": 150 }
-      ]
-    },
-    {
-      "id": "8",
-      "name": "Cafe Coffee Day",
-      "cuisine": ["Cafe", "Beverages"],
-      "rating": 4.1,
-      "deliveryTime": "18 mins",
-      "costForTwo": 250,
-      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
-      "menu": [
-        { "id": "m1", "name": "Cappuccino", "price": 120 },
-        { "id": "m2", "name": "Cold Coffee", "price": 140 }
-      ]
-    },
-    {
-      "id": "9",
-      "name": "Sweet Tooth",
-      "cuisine": ["Desserts"],
-      "rating": 4.6,
-      "deliveryTime": "22 mins",
-      "costForTwo": 200,
-      "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b",
-      "menu": [
-        { "id": "m1", "name": "Chocolate Cake", "price": 150 },
-        { "id": "m2", "name": "Ice Cream", "price": 100 }
-      ]
-    },
-    {
-      "id": "10",
-      "name": "Rolls King",
-      "cuisine": ["Street Food"],
-      "rating": 4.3,
-      "deliveryTime": "15 mins",
-      "costForTwo": 180,
-      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
-      "menu": [
-        { "id": "m1", "name": "Chicken Roll", "price": 120 },
-        { "id": "m2", "name": "Paneer Roll", "price": 100 }
-      ]
-    },
-    {
-      "id": "11",
-      "name": "BBQ Nation",
-      "cuisine": ["Barbecue"],
-      "rating": 4.7,
-      "deliveryTime": "40 mins",
-      "costForTwo": 600,
-      "image": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee",
-      "menu": [
-        { "id": "m1", "name": "Grilled Chicken", "price": 300 },
-        { "id": "m2", "name": "Paneer BBQ", "price": 250 }
-      ]
-    },
-    {
-      "id": "12",
-      "name": "Domino's Style Pizza",
-      "cuisine": ["Pizza"],
-      "rating": 4.2,
-      "deliveryTime": "25 mins",
-      "costForTwo": 350,
-      "image": "https://images.unsplash.com/photo-1601924638867-3ec6c6c0c9b0",
-      "menu": [
-        { "id": "m1", "name": "Cheese Burst", "price": 299 },
-        { "id": "m2", "name": "Veg Loaded", "price": 279 }
-      ]
-    },
-    {
-      "id": "13",
-      "name": "Hyderabadi Dum Biryani",
-      "cuisine": ["Biryani"],
-      "rating": 4.6,
-      "deliveryTime": "35 mins",
-      "costForTwo": 400,
-      "image": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
-      "menu": [
-        { "id": "m1", "name": "Dum Biryani", "price": 220 },
-        { "id": "m2", "name": "Double Ka Meetha", "price": 120 }
-      ]
-    },
-    {
-      "id": "14",
-      "name": "Juice World",
-      "cuisine": ["Beverages"],
-      "rating": 4.3,
-      "deliveryTime": "12 mins",
-      "costForTwo": 150,
-      "image": "https://images.unsplash.com/photo-1577805947697-89e18249d767",
-      "menu": [
-        { "id": "m1", "name": "Orange Juice", "price": 80 },
-        { "id": "m2", "name": "Watermelon Juice", "price": 90 }
-      ]
-    },
-    {
-      "id": "15",
-      "name": "Tandoori Nights",
-      "cuisine": ["North Indian"],
-      "rating": 4.5,
-      "deliveryTime": "32 mins",
-      "costForTwo": 450,
-      "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
-      "menu": [
-        { "id": "m1", "name": "Butter Chicken", "price": 260 },
-        { "id": "m2", "name": "Paneer Butter Masala", "price": 220 }
-      ]
-    }
-  ]
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "gridElements": {
+              "infoWithStyle": {
+                "restaurants": [
+                  { "info": { "id": "1", "name": "Spicy Biryani House", "cuisines": ["Indian"], "avgRating": 4.4, "costForTwo": "₹300", "cloudinaryImageId": "https://images.unsplash.com/photo-1604908176997-431b3a3c1c09" }},
+                  { "info": { "id": "2", "name": "Pizza Paradise", "cuisines": ["Italian"], "avgRating": 4.6, "costForTwo": "₹400", "cloudinaryImageId": "https://images.unsplash.com/photo-1594007654729-407eedc4fe0f" }},
+                  { "info": { "id": "3", "name": "Burger Junction", "cuisines": ["Fast Food"], "avgRating": 4.2, "costForTwo": "₹250", "cloudinaryImageId": "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+                  { "info": { "id": "4", "name": "South Tiffins", "cuisines": ["South Indian"], "avgRating": 4.5, "costForTwo": "₹200", "cloudinaryImageId": "https://images.unsplash.com/photo-1589302168068-964664d93dc0" }},
+                  { "info": { "id": "5", "name": "Chinese Wok", "cuisines": ["Chinese"], "avgRating": 4.3, "costForTwo": "₹350", "cloudinaryImageId": "https://images.unsplash.com/photo-1603133872878-684f208fb84b" }},
+                  { "info": { "id": "6", "name": "Healthy Bowl", "cuisines": ["Healthy"], "avgRating": 4.7, "costForTwo": "₹350", "cloudinaryImageId": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c" }},
+                  { "info": { "id": "7", "name": "Andhra Spice", "cuisines": ["Andhra"], "avgRating": 4.5, "costForTwo": "₹320", "cloudinaryImageId": "https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4" }},
+                  { "info": { "id": "8", "name": "Cafe Coffee Day", "cuisines": ["Cafe"], "avgRating": 4.1, "costForTwo": "₹250", "cloudinaryImageId": "https://images.unsplash.com/photo-1509042239860-f550ce710b93" }},
+                  { "info": { "id": "9", "name": "Sweet Tooth", "cuisines": ["Desserts"], "avgRating": 4.6, "costForTwo": "₹200", "cloudinaryImageId": "https://images.unsplash.com/photo-1551024601-bec78aea704b" }},
+                  { "info": { "id": "10", "name": "Rolls King", "cuisines": ["Street Food"], "avgRating": 4.3, "costForTwo": "₹180", "cloudinaryImageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950" }},
+                  { "info": { "id": "11", "name": "BBQ Nation", "cuisines": ["Barbecue"], "avgRating": 4.7, "costForTwo": "₹600", "cloudinaryImageId": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee" }},
+                  { "info": { "id": "12", "name": "Dominos Style Pizza", "cuisines": ["Pizza"], "avgRating": 4.2, "costForTwo": "₹350", "cloudinaryImageId": "https://images.unsplash.com/photo-1601924638867-3ec6c6c0c9b0" }},
+                  { "info": { "id": "13", "name": "Hyderabadi Biryani", "cuisines": ["Biryani"], "avgRating": 4.6, "costForTwo": "₹400", "cloudinaryImageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a" }},
+                  { "info": { "id": "14", "name": "Juice World", "cuisines": ["Beverages"], "avgRating": 4.3, "costForTwo": "₹150", "cloudinaryImageId": "https://images.unsplash.com/photo-1577805947697-89e18249d767" }},
+                  { "info": { "id": "15", "name": "Tandoori Nights", "cuisines": ["North Indian"], "avgRating": 4.5, "costForTwo": "₹450", "cloudinaryImageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" }}
+                ]
+              }
+            }
+          }
+        }
+      },
+
+      {
+        "menuData": {
+          "1": [{"id":"m1","name":"Chicken Biryani","price":18000},{"id":"m2","name":"Mutton Biryani","price":25000}],
+          "2": [{"id":"m1","name":"Margherita","price":19900},{"id":"m2","name":"Farmhouse","price":29900}],
+          "3": [{"id":"m1","name":"Veg Burger","price":12000},{"id":"m2","name":"Chicken Burger","price":16000}],
+          "4": [{"id":"m1","name":"Dosa","price":8000},{"id":"m2","name":"Idli","price":5000}],
+          "5": [{"id":"m1","name":"Noodles","price":15000},{"id":"m2","name":"Fried Rice","price":14000}],
+          "6": [{"id":"m1","name":"Protein Bowl","price":22000},{"id":"m2","name":"Salad","price":18000}],
+          "7": [{"id":"m1","name":"Meals","price":15000},{"id":"m2","name":"Chicken Curry","price":20000}],
+          "8": [{"id":"m1","name":"Coffee","price":12000},{"id":"m2","name":"Cold Coffee","price":14000}],
+          "9": [{"id":"m1","name":"Cake","price":15000},{"id":"m2","name":"Ice Cream","price":10000}],
+          "10":[{"id":"m1","name":"Chicken Roll","price":12000},{"id":"m2","name":"Paneer Roll","price":10000}],
+          "11":[{"id":"m1","name":"Grill Chicken","price":30000},{"id":"m2","name":"Paneer BBQ","price":25000}],
+          "12":[{"id":"m1","name":"Cheese Burst","price":29900},{"id":"m2","name":"Veg Loaded","price":27900}],
+          "13":[{"id":"m1","name":"Dum Biryani","price":22000},{"id":"m2","name":"Sweet","price":12000}],
+          "14":[{"id":"m1","name":"Orange Juice","price":8000},{"id":"m2","name":"Watermelon","price":9000}],
+          "15":[{"id":"m1","name":"Butter Chicken","price":26000},{"id":"m2","name":"Paneer Masala","price":22000}]
+        }
+      }
+    ]
+  }
 }
