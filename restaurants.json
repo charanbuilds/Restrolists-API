@@ -1,184 +1,241 @@
 {
+  "status": true,
+  "message": "Restaurant List fetched successfully",
   "data": {
-    "cards": [
-      {
-        "card": {
+    "data": {
+      "cards": [
+        {},
+        {
           "card": {
-            "id": "restaurant_grid_listing",
-            "gridElements": {
-              "infoWithStyle": {
-                "restaurants": [
-                  {
-                    "info": {
-                      "id": "101",
-                      "name": "Spicy Hub",
-                      "cuisines": ["Indian", "Biryani"],
-                      "avgRating": "4.2",
-                      "costForTwo": "₹300 for two",
-                      "sla": { "deliveryTime": 30 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?biryani"
+            "card": {
+              "gridElements": {
+                "infoWithStyle": {
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "123456",
+                        "name": "Pizza Paradise",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?pizza",
+                        "locality": "MG Road",
+                        "areaName": "Central District",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": ["Pizza", "Italian", "Fast Food"],
+                        "avgRating": 4.3,
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "10K+ ratings",
+                        "veg": false,
+                        "sla": {
+                          "deliveryTime": 30,
+                          "lastMileTravel": 3.5,
+                          "slaString": "30 mins"
+                        }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "234567",
+                        "name": "Burger Hub",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?burger",
+                        "locality": "Park Street",
+                        "areaName": "Downtown",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": ["Burgers", "Fast Food"],
+                        "avgRating": 4.5,
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "15K+ ratings",
+                        "veg": false,
+                        "sla": { "deliveryTime": 25, "slaString": "25 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "345678",
+                        "name": "Green Bites",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?salad",
+                        "locality": "Residency Road",
+                        "areaName": "South Zone",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": ["Healthy", "Vegan"],
+                        "avgRating": 4.7,
+                        "avgRatingString": "4.7",
+                        "totalRatingsString": "8K+ ratings",
+                        "veg": true,
+                        "sla": { "deliveryTime": 20, "slaString": "20 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "456789",
+                        "name": "Spice Kingdom",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?biryani",
+                        "locality": "Brigade Road",
+                        "areaName": "City Center",
+                        "costForTwo": "₹500 for two",
+                        "cuisines": ["Indian", "Biryani"],
+                        "avgRating": 4.2,
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "12K+ ratings",
+                        "veg": false,
+                        "sla": { "deliveryTime": 35, "slaString": "35 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "567890",
+                        "name": "Chinese Dragon",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?noodles",
+                        "locality": "Commercial Street",
+                        "areaName": "East District",
+                        "costForTwo": "₹350 for two",
+                        "cuisines": ["Chinese"],
+                        "avgRating": 4.4,
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "9K+ ratings",
+                        "sla": { "deliveryTime": 28, "slaString": "28 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "678901",
+                        "name": "Dessert Delight",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?dessert",
+                        "locality": "Lavelle Road",
+                        "areaName": "West End",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": ["Desserts"],
+                        "avgRating": 4.6,
+                        "avgRatingString": "4.6",
+                        "totalRatingsString": "7K+ ratings",
+                        "veg": true,
+                        "sla": { "deliveryTime": 22, "slaString": "22 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "789012",
+                        "name": "Sushi Station",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?sushi",
+                        "locality": "Indiranagar",
+                        "areaName": "Uptown",
+                        "costForTwo": "₹800 for two",
+                        "cuisines": ["Japanese"],
+                        "avgRating": 4.8,
+                        "avgRatingString": "4.8",
+                        "totalRatingsString": "5K+ ratings",
+                        "sla": { "deliveryTime": 40, "slaString": "40 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "890123",
+                        "name": "South Spice",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?dosa",
+                        "locality": "Jayanagar",
+                        "areaName": "South",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": ["South Indian"],
+                        "avgRating": 4.5,
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "11K+ ratings",
+                        "veg": true,
+                        "sla": { "deliveryTime": 25, "slaString": "25 mins" }
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "901234",
+                        "name": "Pasta Palace",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?pasta",
+                        "locality": "Koramangala",
+                        "areaName": "Tech Hub",
+                        "costForTwo": "₹450 for two",
+                        "cuisines": ["Italian"],
+                        "avgRating": 4.1,
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "6K+ ratings",
+                        "sla": { "deliveryTime": 32, "slaString": "32 mins" }
+                      }
+                    },
+
+                    {
+                      "info": {
+                        "id": "910001",
+                        "name": "Rolls Mania",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?rolls",
+                        "locality": "HSR Layout",
+                        "areaName": "South",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": ["Rolls"],
+                        "avgRating": 4.2
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "910002",
+                        "name": "BBQ House",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?bbq",
+                        "locality": "BTM",
+                        "areaName": "City",
+                        "costForTwo": "₹600 for two",
+                        "cuisines": ["BBQ"],
+                        "avgRating": 4.4
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "910003",
+                        "name": "Cafe Coffee",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?coffee",
+                        "locality": "Whitefield",
+                        "areaName": "IT Hub",
+                        "costForTwo": "₹250 for two",
+                        "cuisines": ["Cafe"],
+                        "avgRating": 4.3
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "910004",
+                        "name": "Momos Street",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?momos",
+                        "locality": "Mall Road",
+                        "areaName": "North",
+                        "costForTwo": "₹180 for two",
+                        "cuisines": ["Tibetan"],
+                        "avgRating": 4.1
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "910005",
+                        "name": "Healthy Bowl",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?healthy-food",
+                        "locality": "Eco Space",
+                        "areaName": "East",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": ["Healthy"],
+                        "avgRating": 4.6
+                      }
+                    },
+                    {
+                      "info": {
+                        "id": "910006",
+                        "name": "Ice Cream Hub",
+                        "cloudinaryImageId": "https://source.unsplash.com/300x200/?icecream",
+                        "locality": "City Mall",
+                        "areaName": "West",
+                        "costForTwo": "₹150 for two",
+                        "cuisines": ["Desserts"],
+                        "avgRating": 4.7
+                      }
                     }
-                  },
-                  {
-                    "info": {
-                      "id": "102",
-                      "name": "Pizza Palace",
-                      "cuisines": ["Pizza", "Italian"],
-                      "avgRating": "4.5",
-                      "costForTwo": "₹500 for two",
-                      "sla": { "deliveryTime": 25 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?pizza"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "103",
-                      "name": "Burger Town",
-                      "cuisines": ["Burgers", "Fast Food"],
-                      "avgRating": "4.1",
-                      "costForTwo": "₹250 for two",
-                      "sla": { "deliveryTime": 20 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?burger"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "104",
-                      "name": "Andhra Meals",
-                      "cuisines": ["South Indian"],
-                      "avgRating": "4.3",
-                      "costForTwo": "₹200 for two",
-                      "sla": { "deliveryTime": 35 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?dosa"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "105",
-                      "name": "Tandoori Nights",
-                      "cuisines": ["North Indian"],
-                      "avgRating": "4.4",
-                      "costForTwo": "₹400 for two",
-                      "sla": { "deliveryTime": 28 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?tandoori"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "106",
-                      "name": "Chinese Wok",
-                      "cuisines": ["Chinese"],
-                      "avgRating": "4.0",
-                      "costForTwo": "₹350 for two",
-                      "sla": { "deliveryTime": 32 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?noodles"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "107",
-                      "name": "Dosa Plaza",
-                      "cuisines": ["South Indian"],
-                      "avgRating": "4.6",
-                      "costForTwo": "₹150 for two",
-                      "sla": { "deliveryTime": 18 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?dosa"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "108",
-                      "name": "Chaat Junction",
-                      "cuisines": ["Street Food"],
-                      "avgRating": "4.2",
-                      "costForTwo": "₹120 for two",
-                      "sla": { "deliveryTime": 15 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?chaat"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "109",
-                      "name": "Healthy Bites",
-                      "cuisines": ["Healthy"],
-                      "avgRating": "4.3",
-                      "costForTwo": "₹300 for two",
-                      "sla": { "deliveryTime": 22 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?salad"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "110",
-                      "name": "Rolls Mania",
-                      "cuisines": ["Rolls"],
-                      "avgRating": "4.1",
-                      "costForTwo": "₹200 for two",
-                      "sla": { "deliveryTime": 19 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?rolls"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "111",
-                      "name": "Ice Cream World",
-                      "cuisines": ["Desserts"],
-                      "avgRating": "4.7",
-                      "costForTwo": "₹180 for two",
-                      "sla": { "deliveryTime": 12 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?icecream"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "112",
-                      "name": "BBQ Nation Style",
-                      "cuisines": ["BBQ"],
-                      "avgRating": "4.5",
-                      "costForTwo": "₹600 for two",
-                      "sla": { "deliveryTime": 40 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?barbecue"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "113",
-                      "name": "Cafe Clone",
-                      "cuisines": ["Cafe"],
-                      "avgRating": "4.2",
-                      "costForTwo": "₹250 for two",
-                      "sla": { "deliveryTime": 20 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?coffee"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "114",
-                      "name": "Shawarma King",
-                      "cuisines": ["Arabian"],
-                      "avgRating": "4.3",
-                      "costForTwo": "₹220 for two",
-                      "sla": { "deliveryTime": 18 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?shawarma"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "115",
-                      "name": "Momos Street",
-                      "cuisines": ["Tibetan"],
-                      "avgRating": "4.1",
-                      "costForTwo": "₹160 for two",
-                      "sla": { "deliveryTime": 17 },
-                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?momos"
-                    }
-                  }
-                ]
+                  ]
+                }
               }
             }
           }
         }
-      }
-    ]
+      ]
+    }
   }
 }
