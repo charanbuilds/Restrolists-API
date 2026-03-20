@@ -1,53 +1,182 @@
 {
   "data": {
     "cards": [
-      {},
-      {},
       {
         "card": {
           "card": {
+            "id": "restaurant_grid_listing",
             "gridElements": {
               "infoWithStyle": {
                 "restaurants": [
-                  { "info": { "id": "1", "name": "Spicy Biryani House", "cuisines": ["Indian"], "avgRating": 4.4, "costForTwo": "₹300", "cloudinaryImageId": "https://images.unsplash.com/photo-1604908176997-431b3a3c1c09" }},
-                  { "info": { "id": "2", "name": "Pizza Paradise", "cuisines": ["Italian"], "avgRating": 4.6, "costForTwo": "₹400", "cloudinaryImageId": "https://images.unsplash.com/photo-1594007654729-407eedc4fe0f" }},
-                  { "info": { "id": "3", "name": "Burger Junction", "cuisines": ["Fast Food"], "avgRating": 4.2, "costForTwo": "₹250", "cloudinaryImageId": "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
-                  { "info": { "id": "4", "name": "South Tiffins", "cuisines": ["South Indian"], "avgRating": 4.5, "costForTwo": "₹200", "cloudinaryImageId": "https://images.unsplash.com/photo-1589302168068-964664d93dc0" }},
-                  { "info": { "id": "5", "name": "Chinese Wok", "cuisines": ["Chinese"], "avgRating": 4.3, "costForTwo": "₹350", "cloudinaryImageId": "https://images.unsplash.com/photo-1603133872878-684f208fb84b" }},
-                  { "info": { "id": "6", "name": "Healthy Bowl", "cuisines": ["Healthy"], "avgRating": 4.7, "costForTwo": "₹350", "cloudinaryImageId": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c" }},
-                  { "info": { "id": "7", "name": "Andhra Spice", "cuisines": ["Andhra"], "avgRating": 4.5, "costForTwo": "₹320", "cloudinaryImageId": "https://images.unsplash.com/photo-1605478371310-a9f1e96b4ff4" }},
-                  { "info": { "id": "8", "name": "Cafe Coffee Day", "cuisines": ["Cafe"], "avgRating": 4.1, "costForTwo": "₹250", "cloudinaryImageId": "https://images.unsplash.com/photo-1509042239860-f550ce710b93" }},
-                  { "info": { "id": "9", "name": "Sweet Tooth", "cuisines": ["Desserts"], "avgRating": 4.6, "costForTwo": "₹200", "cloudinaryImageId": "https://images.unsplash.com/photo-1551024601-bec78aea704b" }},
-                  { "info": { "id": "10", "name": "Rolls King", "cuisines": ["Street Food"], "avgRating": 4.3, "costForTwo": "₹180", "cloudinaryImageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950" }},
-                  { "info": { "id": "11", "name": "BBQ Nation", "cuisines": ["Barbecue"], "avgRating": 4.7, "costForTwo": "₹600", "cloudinaryImageId": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee" }},
-                  { "info": { "id": "12", "name": "Dominos Style Pizza", "cuisines": ["Pizza"], "avgRating": 4.2, "costForTwo": "₹350", "cloudinaryImageId": "https://images.unsplash.com/photo-1601924638867-3ec6c6c0c9b0" }},
-                  { "info": { "id": "13", "name": "Hyderabadi Biryani", "cuisines": ["Biryani"], "avgRating": 4.6, "costForTwo": "₹400", "cloudinaryImageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a" }},
-                  { "info": { "id": "14", "name": "Juice World", "cuisines": ["Beverages"], "avgRating": 4.3, "costForTwo": "₹150", "cloudinaryImageId": "https://images.unsplash.com/photo-1577805947697-89e18249d767" }},
-                  { "info": { "id": "15", "name": "Tandoori Nights", "cuisines": ["North Indian"], "avgRating": 4.5, "costForTwo": "₹450", "cloudinaryImageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" }}
+                  {
+                    "info": {
+                      "id": "101",
+                      "name": "Spicy Hub",
+                      "cuisines": ["Indian", "Biryani"],
+                      "avgRating": "4.2",
+                      "costForTwo": "₹300 for two",
+                      "sla": { "deliveryTime": 30 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?biryani"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "102",
+                      "name": "Pizza Palace",
+                      "cuisines": ["Pizza", "Italian"],
+                      "avgRating": "4.5",
+                      "costForTwo": "₹500 for two",
+                      "sla": { "deliveryTime": 25 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?pizza"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "103",
+                      "name": "Burger Town",
+                      "cuisines": ["Burgers", "Fast Food"],
+                      "avgRating": "4.1",
+                      "costForTwo": "₹250 for two",
+                      "sla": { "deliveryTime": 20 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?burger"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "104",
+                      "name": "Andhra Meals",
+                      "cuisines": ["South Indian"],
+                      "avgRating": "4.3",
+                      "costForTwo": "₹200 for two",
+                      "sla": { "deliveryTime": 35 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?dosa"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "105",
+                      "name": "Tandoori Nights",
+                      "cuisines": ["North Indian"],
+                      "avgRating": "4.4",
+                      "costForTwo": "₹400 for two",
+                      "sla": { "deliveryTime": 28 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?tandoori"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "106",
+                      "name": "Chinese Wok",
+                      "cuisines": ["Chinese"],
+                      "avgRating": "4.0",
+                      "costForTwo": "₹350 for two",
+                      "sla": { "deliveryTime": 32 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?noodles"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "107",
+                      "name": "Dosa Plaza",
+                      "cuisines": ["South Indian"],
+                      "avgRating": "4.6",
+                      "costForTwo": "₹150 for two",
+                      "sla": { "deliveryTime": 18 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?dosa"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "108",
+                      "name": "Chaat Junction",
+                      "cuisines": ["Street Food"],
+                      "avgRating": "4.2",
+                      "costForTwo": "₹120 for two",
+                      "sla": { "deliveryTime": 15 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?chaat"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "109",
+                      "name": "Healthy Bites",
+                      "cuisines": ["Healthy"],
+                      "avgRating": "4.3",
+                      "costForTwo": "₹300 for two",
+                      "sla": { "deliveryTime": 22 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?salad"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "110",
+                      "name": "Rolls Mania",
+                      "cuisines": ["Rolls"],
+                      "avgRating": "4.1",
+                      "costForTwo": "₹200 for two",
+                      "sla": { "deliveryTime": 19 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?rolls"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "111",
+                      "name": "Ice Cream World",
+                      "cuisines": ["Desserts"],
+                      "avgRating": "4.7",
+                      "costForTwo": "₹180 for two",
+                      "sla": { "deliveryTime": 12 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?icecream"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "112",
+                      "name": "BBQ Nation Style",
+                      "cuisines": ["BBQ"],
+                      "avgRating": "4.5",
+                      "costForTwo": "₹600 for two",
+                      "sla": { "deliveryTime": 40 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?barbecue"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "113",
+                      "name": "Cafe Clone",
+                      "cuisines": ["Cafe"],
+                      "avgRating": "4.2",
+                      "costForTwo": "₹250 for two",
+                      "sla": { "deliveryTime": 20 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?coffee"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "114",
+                      "name": "Shawarma King",
+                      "cuisines": ["Arabian"],
+                      "avgRating": "4.3",
+                      "costForTwo": "₹220 for two",
+                      "sla": { "deliveryTime": 18 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?shawarma"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "115",
+                      "name": "Momos Street",
+                      "cuisines": ["Tibetan"],
+                      "avgRating": "4.1",
+                      "costForTwo": "₹160 for two",
+                      "sla": { "deliveryTime": 17 },
+                      "cloudinaryImageId": "https://source.unsplash.com/300x200/?momos"
+                    }
+                  }
                 ]
               }
             }
           }
-        }
-      },
-
-      {
-        "menuData": {
-          "1": [{"id":"m1","name":"Chicken Biryani","price":18000},{"id":"m2","name":"Mutton Biryani","price":25000}],
-          "2": [{"id":"m1","name":"Margherita","price":19900},{"id":"m2","name":"Farmhouse","price":29900}],
-          "3": [{"id":"m1","name":"Veg Burger","price":12000},{"id":"m2","name":"Chicken Burger","price":16000}],
-          "4": [{"id":"m1","name":"Dosa","price":8000},{"id":"m2","name":"Idli","price":5000}],
-          "5": [{"id":"m1","name":"Noodles","price":15000},{"id":"m2","name":"Fried Rice","price":14000}],
-          "6": [{"id":"m1","name":"Protein Bowl","price":22000},{"id":"m2","name":"Salad","price":18000}],
-          "7": [{"id":"m1","name":"Meals","price":15000},{"id":"m2","name":"Chicken Curry","price":20000}],
-          "8": [{"id":"m1","name":"Coffee","price":12000},{"id":"m2","name":"Cold Coffee","price":14000}],
-          "9": [{"id":"m1","name":"Cake","price":15000},{"id":"m2","name":"Ice Cream","price":10000}],
-          "10":[{"id":"m1","name":"Chicken Roll","price":12000},{"id":"m2","name":"Paneer Roll","price":10000}],
-          "11":[{"id":"m1","name":"Grill Chicken","price":30000},{"id":"m2","name":"Paneer BBQ","price":25000}],
-          "12":[{"id":"m1","name":"Cheese Burst","price":29900},{"id":"m2","name":"Veg Loaded","price":27900}],
-          "13":[{"id":"m1","name":"Dum Biryani","price":22000},{"id":"m2","name":"Sweet","price":12000}],
-          "14":[{"id":"m1","name":"Orange Juice","price":8000},{"id":"m2","name":"Watermelon","price":9000}],
-          "15":[{"id":"m1","name":"Butter Chicken","price":26000},{"id":"m2","name":"Paneer Masala","price":22000}]
         }
       }
     ]
